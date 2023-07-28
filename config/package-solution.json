@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "share-point-tlms-client-side-solution",
+    "id": "c97455fe-cbf4-4c6d-955c-33e6900f0c5b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sharePointTLMS description"
+      },
+      "longDescription": {
+        "default": "sharePointTLMS description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "share-point-tlms Feature",
+        "description": "The feature that activates elements of the share-point-tlms solution.",
+        "id": "0dc3d4fa-27c0-4c32-842e-5f128307a9aa",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/share-point-tlms.sppkg"
+  }
+}

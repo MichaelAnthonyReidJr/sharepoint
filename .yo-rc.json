@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "share-point-tlms",
+    "libraryId": "c97455fe-cbf4-4c6d-955c-33e6900f0c5b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sharePointTLMS",
+    "solutionShortDescription": "sharePointTLMS description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
