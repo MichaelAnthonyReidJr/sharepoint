@@ -7,11 +7,12 @@ import {
   PropertyPaneToggle,
 } from "@microsoft/sp-property-pane";
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
-import { IReadonlyTheme } from "@microsoft/sp-component-base";
+import { IReadonlyTheme } from "@microsoft/.sp-component-base-EnMqAKOc";
 import { escape } from "@microsoft/sp-lodash-subset";
 
 import styles from "./HelloWorldWebPart.module.scss";
 import * as strings from "HelloWorldWebPartStrings";
+
 import {
   SPHttpClient,
   SPHttpClientResponse
@@ -45,8 +46,6 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
       .catch(() => {});
   }
 
-
-  
   public render(): void {
     this.domElement.innerHTML = `
 <section class="${styles.helloWorld} ${!!this.context.sdks.microsoftTeams ? styles.teams : ''}">
